@@ -70,6 +70,33 @@ function onText(line, event) {
       text: 'How can I help you today?'
     }]
   },{
+    key: /.*保険.*/,
+    messages: [{
+      type: 'text',
+      text: 'こちらの情報はお役にたちますか？'
+    }, {
+      type: 'text',
+      text: 'https://cirrus-sccommunity-14d1343ae-15d1b44c754.force.com/napili/s/article/2500'
+    }]
+  },{
+    key: /.*給付.*/,
+    messages: [{
+      type: 'text',
+      text: 'こちらの情報はお役にたちますか？'
+    }, {
+      type: 'text',
+      text: 'https://cirrus-sccommunity-14d1343ae-15d1b44c754.force.com/napili/s/article/2500'
+    }]
+  },{
+    key: /.*請求.*/,
+    messages: [{
+      type: 'text',
+      text: 'こちらの情報はお役にたちますか？'
+    }, {
+      type: 'text',
+      text: 'https://cirrus-sccommunity-14d1343ae-15d1b44c754.force.com/napili/s/article/2500'
+    }]
+  },{
     key: /.*パスワード.*/,
     messages: [{
       type: 'text',
